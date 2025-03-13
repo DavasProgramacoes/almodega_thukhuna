@@ -124,7 +124,7 @@ h2 {
 }
 
 .formulario {
-    background-color: #ffffff;
+    background-color: var(--whigga);
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
@@ -171,8 +171,8 @@ h2 {
 }
 
 .alto-contraste{
-    background-color: var(--alto-contraste-fundo);
-    color: var(--alto-contraste-texto);
+    background-color: var(--nigga);
+    color: var(--azur);
 }
 
 .alto-contraste header,
