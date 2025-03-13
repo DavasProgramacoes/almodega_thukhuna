@@ -6,6 +6,7 @@
     --amareio: #ffd000;
     --azur:    #0059ff;
     --nigga:   #000000;
+    --whigga:  #ffffff;
 }
 
 body {
@@ -141,7 +142,7 @@ h2 {
 
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
-    background-color: #F1EDEF;
+    background-color: var(--whigga);
 }
 
 .menu-acessibilidade{
@@ -177,19 +178,19 @@ h2 {
 .alto-contraste header,
 .alto-contraste footer,
 .alto-contraste .formulario{
-    background-color: var(--alto-contraste-fundo);
-    color: var(--alto-contraste-texto);
+    background-color: var(--nigga);
+    color: var(--whigga);
 }
 
 .alto-contraste .nav-link{
-    color: var(--alto-contraste-link);
+    color: var(--azur);
 }
 
 .alto-contraste .botao-inicio,
 .alto-contraste .formulario button,
 .alto-contraste .btn-primary{
-    background-color: var(--alto-contraste-link);
-    color: var(--alto-contraste-fundo)
+    background-color: var(--azur);
+    color: var(--nigga)
 }
 
 .alto-contraste #tropicalia {
@@ -197,7 +198,7 @@ h2 {
 }
 
 .alto-contraste #galeria {
-    background-color: var(--alto-contraste-fundo);
+    background-color: var(--nigga);
 }
 .alto-contraste .fundo-galeria {
     background: none;
