@@ -209,3 +209,6 @@ h2 {
 .alto-contraste .fundo-galeria {
     background: none;
 }
+.logotipo{
+    background: url('replacements/smallniggabeat.png')
+}
