@@ -194,6 +194,8 @@ h2 {
 
 .alto-contraste #tropicalia {
     background-color:var(--nigga);
+    background: url('replacements/rx7fdnegao.png') top right no-repeat,
+        url('replacements/rx7fcnegao.png') bottom left no-repeat;
 }
 
 .alto-contraste #galeria {
