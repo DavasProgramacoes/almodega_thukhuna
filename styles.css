@@ -193,9 +193,14 @@ h2 {
 }
 
 .alto-contraste #tropicalia {
-    background-color:var(--nigga);
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: #FAF4F4;
     background: url('replacements/rx7fdnegao.png') top right no-repeat,
         url('replacements/rx7fcnegao.png') bottom left no-repeat;
+    background-size: 180px 180px;
 }
 
 .alto-contraste #galeria {
