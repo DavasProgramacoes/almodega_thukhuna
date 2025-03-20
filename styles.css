@@ -30,9 +30,7 @@ section {
 }
 
 .inicio-fundo {
-    /* aula 3 */
     background-image: url('replacements/background.png');
-    /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
     border-radius: 80px;
@@ -82,6 +80,7 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    background-color: #FAF4F4;
     background: url('replacements/rx7fd.png') top right no-repeat,
         url('replacements/rx7fc.png') bottom left no-repeat;
     background-size: 180px 180px;
@@ -194,7 +193,7 @@ h2 {
 }
 
 .alto-contraste #tropicalia {
-    background: none;
+    background-color:var(--nigga);
 }
 
 .alto-contraste #galeria {
