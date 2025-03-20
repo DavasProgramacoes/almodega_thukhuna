@@ -177,7 +177,7 @@ h2 {
 .alto-contraste header,
 .alto-contraste footer,
 .alto-contraste .formulario{
-    background-image: url('replacements/smallniggabeat.png');
+    background: var(--nigga);
     color: var(--whigga);
 }
 
@@ -208,7 +208,4 @@ h2 {
 }
 .alto-contraste .fundo-galeria {
     background: none;
-}
-.alto-contraste header{
-    
 }
